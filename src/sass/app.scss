@@ -1,1 +1,304 @@
-// Продължи с твоя SCSS или обикновен CSS код тук.
+body {
+    background-color: rgb(254, 249, 236);
+    font-family: serif;
+}
+
+.nav-bar {
+    width:100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: 175px;
+}
+
+.nav-desserts, .nav-review, .nav-order, .nav-reccomendation, .nav-us, .nav-contact {
+    text-decoration: none;
+    color: #9B582E;
+    font-weight: bold;
+    margin-left: 33px;
+}
+
+.nav-logo {
+    margin-left: 60px;
+}
+
+.gen-text {
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.title {
+    font-size: 68px;
+    color: #9B582E;
+    font-weight: bold;
+}
+
+.title-a {
+    font-size: 68px;
+    color:#533019;
+}
+
+.title-b {
+    font-size: 68px;
+    color: #533019;
+}
+.small-title {
+    margin-top: -20px;
+}
+
+.gen-buttons {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.request:hover {
+    background-color: #9c6b4c;
+    animation-duration: 0.5s;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.request:active {
+    background-color: #533019;
+    animation-duration: 1s;
+}
+
+.request {
+    background-color: #9B582E;
+    color: white;
+    border-radius: 32px;
+    height: 32px;
+    border: none;
+    width: 130px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.learn:hover {
+    color: white;
+    background-color: #ca6c06;
+    cursor: pointer;
+    border: solid #CA7111;
+    animation-duration: 0.5s;
+    transition: 0.3s ease-in;
+}
+
+.learn:active {
+    background-color: #8c4800;
+    border: solid #8c4800;
+    animation-duration: 0.3s;
+}
+
+.learn {
+    color: #CA7111;
+    border-color: #CA7111;
+    border-radius: 32px;
+    width: 130px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 15px;
+    border: 2px solid;
+}
+
+.cards {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.card1 {
+    border: solid #f8eecc;
+    width: 300px;
+    height: 550px;
+}
+
+.card-bottom1 {
+    justify-content: center;
+    display: flex;
+    display: block;
+    justify-content: center;
+    margin-left: 28%;
+}
+
+
+.card2 {
+    border: solid #f8eecc;
+    width: 300px;
+    height: 550px;
+}
+
+.card-bottom2 {
+    justify-content: center;
+    display: flex;
+    display: block;
+    justify-content: center;
+    margin-left: 28%;
+}
+
+
+.card3 {
+    border: solid #f8eecc;
+    width: 300px;
+    height: 550px;
+}
+
+.card-bottom3 {
+    justify-content: center;
+    display: flex;
+    display: block;
+    justify-content: center;
+    margin-left: 28%;
+}
+
+.card4 {
+    border: solid #f8eecc;
+    width: 300px;
+    height: 550px;
+}
+
+.card-bottom4 {
+    justify-content: center;
+    display: flex;
+    display: block;
+    justify-content: center;
+    margin-left: 28%;
+}
+
+.card1, .card2, .card3, .card4 {
+    margin-right: 35px;
+} 
+
+.learn-more {
+    text-decoration: none;
+    color: #CA7111;
+}
+
+.chief {
+    margin-top: 70px;
+    margin-left: 10%;
+    display: flex   ;
+    width: 800px;
+    height: 100px;
+}
+
+.c-chef1 {
+    font-weight: bold;
+    font-size:60px ;
+    margin-bottom: -53px;
+}
+
+.c-chef2 {
+    font-weight: bold;
+    font-size:60px ;
+    margin-bottom: 50px;
+}
+
+.chef-name {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.deserti {
+    margin-top: 500px;
+    border-radius: 10px;
+    height: 2000px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #FBF4DF;
+}
+
+.deserti-zaglavie {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.qgodi-bosilek {
+    border: solid whitesmoke   ;
+    background-color: rgba(249, 249, 249, 0.656);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.left-menu1 {
+    display: flex;
+    
+}
+
+.container-zaglavie1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.container-opisanie1 {
+    width: 200px;
+    margin-left: -280px;
+    margin-top: 90px;
+}
+
+.ingrediants1 {
+    background-color: #F9E8DC;
+    border-radius: 10px;
+    height: 240px;
+    width: 240px;
+    margin-left: 250px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.ingrediants1 > p {
+    font-size: 10px;
+    height: 20px;
+    text-align: center;
+    justify-content: center ;
+}
+
+STOSOTOORUHRHEIOURWIUFEUIGFIGFDIGDFGISDFIUDFSIUHDHISHIFDUSUGFSDKHFDS
+
+.qgodi-bosilek {
+    border: solid whitesmoke   ;
+    background-color: rgba(249, 249, 249, 0.656);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.left-menu1 {
+    display: flex;
+    
+}
+
+.container-zaglavie1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.container-opisanie1 {
+    width: 200px;
+    margin-left: -280px;
+    margin-top: 90px;
+}
+
+.ingrediants1 {
+    background-color: #F9E8DC;
+    border-radius: 10px;
+    height: 240px;
+    width: 240px;
+    margin-left: 250px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.ingrediants1 > p {
+    font-size: 10px;
+    height: 20px;
+    text-align: center;
+    justify-content: center ;
+}
